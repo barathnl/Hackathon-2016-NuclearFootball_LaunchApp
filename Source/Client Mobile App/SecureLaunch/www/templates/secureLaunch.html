@@ -1,0 +1,13 @@
+<ion-view title="SecureLaunch" id="page2">
+  <ion-content padding="true" style="background: url(img/background.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <div>Cabinet User : {{usernameData}}</div>  
+    <div class="spacer" style="width: 300px; height: 40px;"></div>
+    <label class="item item-input" id="secureLaunch-input3">
+        <div style="width: 100%; text-align:center;">Key is {{secretKey}}</div>
+    </label>
+    <div class="spacer" style="width: 300px; height: 90px;"></div>
+    <button id="secureLaunch-button2" class="button button-balanced  button-block" ng-click="launch()">Launch</button>
+    <button id="secureLaunch-button3" class="button button-assertive  button-block" ng-click="abort()">Abort</button>
+  </ion-content>
+</ion-view>

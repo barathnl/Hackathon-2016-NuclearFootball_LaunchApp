@@ -1,0 +1,24 @@
+<ion-view title="Login" id="page3">
+  <ion-content padding="true" style="background: url(img/background.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <img src="img/logo.png" style="height:170px;width:170px">
+            </div>
+        </div>
+    </div>
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <form id="login-form1" class="list">
+      <label class="item item-input" id="login-input1">
+        <input ng-model="username" type="text" placeholder="Username">
+      </label>
+      <div class="spacer" style="width: 300px; height: 19px;"></div>
+      <label class="item item-input" id="login-input2">
+        <input ng-model="password" type="password" placeholder="Password">
+      </label>
+    </form>
+    <a id="login-button4" class="button button-positive  button-block" ng-click="login(username,password)">Secure Launch</a>
+    <!--<a id="login-button5" class="button button-positive  button-block" ng-click="register(username,password)">Register</a>-->
+  </ion-content>
+</ion-view>

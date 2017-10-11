@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+html,body{
+    color:white;
+}
+.row{
+    margin: 0px 15px 15px 15px;
+}
+.accept{
+    color: greenyellow;
+    border:3px solid green;
+    border-radius: 25px;
+    text-align: center;
+}
+.reject{
+    color: orangered;
+    border:3px solid red;
+    border-radius: 25px;
+    text-align: center;
+}
+.masterkey{
+    color: darkorange;
+    border:3px solid orange;
+    border-radius: 25px;
+    text-align: center;
+}
+.regeneratedKey{
+    color: blueviolet;
+    border:3px solid blue;
+    border-radius: 25px;
+    text-align: center;
+}
